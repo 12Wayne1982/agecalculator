@@ -1,0 +1,207 @@
+body{
+    /* background-color: bisque; */
+    /* margin: 0;
+    padding: 0;
+    height: 100%; */
+    /* text-align: center;   */
+    margin-top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #999999;
+}
+
+#wrapper{
+    /* background-color: brown; */
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
+
+#dateneingabe{
+    margin: 0 auto 0 auto;
+    /* background-color:blue; */
+}
+
+#dateneingabe-tabelle{
+    /* background-color: azure; */
+    font-size: 22px;
+}
+
+.linkeSpalte{
+    text-align: right;
+    vertical-align: bottom;
+    
+}
+
+.rechteSpalte{
+    /* background-color:gainsboro; */
+    padding-left: 15px;
+    
+}
+
+.linkeSpalteDatenausgabe{
+    text-align: right;
+    vertical-align: bottom;
+    /* background-color: bisque; */
+}
+
+.rechteSpalteDatenausgabe{
+    padding-left: 15px;
+    
+}
+
+.pufferzeile{
+    height: 10px;
+}
+
+#ueberschrift-1{
+    padding-right: 25px;
+    font-size: 55px;
+}
+
+#ueberschrift-1-beiBerechnung{
+    padding-right: 25px;
+    font-size: 22px;
+    display: none;
+}
+
+#ueberschrift-2{
+    padding-right: 25px;
+    font-size: 55px;
+}
+
+.schrift-2{
+    font-size: 55px;
+    line-height: 1;
+    line-height: 38px;
+}
+
+#displayStarSignDescription{
+    vertical-align:sub;
+}
+
+.input{
+    width: 500px;
+    height: 35px;
+    border: none; 
+        /* By setting it to border:none the default css of the text field will be gone and your ready to style it for yourself. */
+    border:solid 1px; 
+    border-radius: 5px;
+    border-color: #cccccc;
+    margin-top: 15px;
+}
+
+input[type=text]{
+    font-size: 22px;
+    background-color:  #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 10px; 
+    color: #999999;
+    outline: none;  
+        /* Damit verschwindet der Rahmen, der bei Eingabe von Daten fett wird. */
+}
+
+input[type=text]:focus{
+    border: 3px dotted #595959;
+}
+
+select{
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #999999;
+    outline: none;  
+        /* Damit verschwindet der Rahmen, der bei Eingabe von Daten fett wird. */   
+}
+
+select:focus{
+    border: 3px dotted #595959;
+}
+
+input[type=submit]{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #999999;  
+    outline: none;  
+        /* Damit verschwindet der Rahmen, der bei Eingabe von Daten fett wird. */  
+}
+
+input[type=submit]:focus {
+    border: 3px dotted #595959;
+}
+
+input[type=button]{
+    /* font-size: 22px; */
+    background-color: #ffffff;
+    font-size: 22px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #999999;   
+}
+
+input[type=button]:focus {
+    border: 3px dotted #595959;
+}
+
+input[type=button]:hover{
+    background-color: #595959;
+    color: #ffffff;
+}
+
+#berechneMeinAlter{
+    height: 40px;
+    background-color: #ffffff;
+}
+
+#berechneMeinAlter:hover{
+    background-color: #595959;
+    color: #ffffff;
+}
+
+#datenausgabe{
+    background-color: #f0fafa;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 40px;
+    color: #ed216b;
+    border-radius: 5px;
+}
+
+#theYears{
+    color:#006080;
+}
+
+#theMonths{
+    color: #0086b3;
+}
+
+#theWeeks{
+    color: #00ace6;
+}
+
+#theDays{
+    color: #1ac6ff;
+}
+
+#theHours{
+    color: #4dd2ff;
+}
+
+#theMinutes{
+    color: #80dfff;
+}
+
+#theSeconds{
+    color: #b3ecff;
+}
+
+/* #theSeconds2{
+    display: none;
+} */
